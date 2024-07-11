@@ -1,0 +1,35 @@
+.scrollbar {
+    &,
+    &:hover {
+      background-color: light-dark(--mantine-color-dark-9);
+    }
+  
+    &[data-orientation='vertical'] .thumb {
+      background-color: var(--mantine-color-dark-9);
+    }
+  }
+  
+  .input {
+    color: light-dark(black, white);
+    background-color: light-dark(var(--mantine-color-dark-1) ,var(--mantine-color-dark-5) );
+    &::placeholder {
+      color: light-dark(gray);
+    }
+    margin-top: 0.8rem;
+}
+.section{
+    width: 2rem;
+    color: light-dark(gray, white);
+}
+
+.wrapperItem{
+   border-bottom: 1px solid  gray;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0.5rem; */
+    gap: 0;
+    /* width: ; */
+}
