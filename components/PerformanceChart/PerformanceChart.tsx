@@ -29,7 +29,7 @@ export default function PerformanceChart() {
       }}
     >
       <Group justify="space-between">
-        <Text size="lg" fw={600}>
+        <Text size="md" fw={500}>
           Allocation Performance Chart
         </Text>
         <Button
@@ -43,7 +43,7 @@ export default function PerformanceChart() {
           3 months
         </Button>
       </Group>
-      <Group justify="space-between">
+      <Group justify="space-between" mt={10}>
         <Text size="xl" fw={700} style={{ marginBottom: theme.spacing.md }}>
           $35,352.02
         </Text>
